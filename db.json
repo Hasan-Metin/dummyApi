@@ -3,15 +3,15 @@
       events: [
         {
           title: 'Satış Planlama Toplantısı',
-          start: date,
+          start: '2021-8-29',
           resourceId: 'c',
-          allDay: true,
+          allDay: 'true',
         },
         {
           title: 'Aylık Müşteri Analiz Toplantısı',
-          start: date,
+          startStr: '2021-8-29',
           resourceIds: ['b', 'a1'],
-          allDay: true,
+          allDay: 'true',
         },
       ],
     },
