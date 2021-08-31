@@ -1,1 +1,44 @@
-# dummyApi
+[
+    {
+      events: [
+        {
+          title: 'Satış Planlama Toplantısı',
+          start: date,
+          resourceId: 'c',
+          allDay: true,
+        },
+        {
+          title: 'Aylık Müşteri Analiz Toplantısı',
+          start: date,
+          resourceIds: ['b', 'a1'],
+          allDay: true,
+        },
+      ],
+    },
+    {
+      resources: [
+        {
+          id: 'a',
+          title: 'Toplantı Salonu',
+          children: [
+            {
+              id: 'a1',
+              title: 'Salon 1',
+            },
+            {
+              id: 'a2',
+              title: 'Salon 2',
+            },
+          ],
+        },
+        {
+          id: 'b',
+          title: '1. Kat Ortak Salon',
+        },
+        {
+          id: 'c',
+          title: '2. Kat Ortak Salon',
+        },
+      ],
+    },
+  ]
